@@ -1,0 +1,10 @@
+
+perc distr calcolate delle anomalie di campi rispetto a bin anomalie di sst
+
+- pdist calcolate su campo intero (di anomalie) e pvalue calcolato su tutta la statistica
+
+- dir pvalue_Lcorr: pdist calcolate su tutto il campo mentre il pvalue calcolato su campo sottocampionato in base a L correlazione e T di correlazione (ma a partire da statistica completa)
+
+- subsampled_pvalue_Lcorr: pvalue calcolati su campi sottocampionati in base a L e T di correlazione - entrambi funzione della quota, L e T variano con h
+ 
+
